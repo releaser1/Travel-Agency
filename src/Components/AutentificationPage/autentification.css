@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.autentification-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url('https://wallpaperaccess.com/full/764893.jpg');
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: center;
+    background-size: cover;
+}
+
+.autentification-child{
+    margin: 20px 0 20px 0px;
+    background-color: #11316c;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 600px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.autentification-image {
+    width: 100%;
+    height: 180px;
+    opacity: 0.9;
+}
+
+.uplogin-image-container {
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+}
+
+.image-child {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(0,0,0,.47);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -49px;    
+}
+
+.image-child span {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 0.8px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+.form-group {
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input {
+    width: 85%;
+    height: 35px;
+    border-radius: 12px;
+    align-self: center;
+}
+
+.login-label {
+    margin-left: 19px;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.login-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-button {
+    align-self: center;
+    width: 88%;
+    height: 44px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #ee4d34;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #aaa;
+}
+
+.error-show {
+    display: block;
+    color: rgb(184, 38, 38);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}

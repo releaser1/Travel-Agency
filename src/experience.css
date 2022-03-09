@@ -1,0 +1,200 @@
+
+
+.experience-page {
+    width: 98%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.nature-field {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.image-nature {
+    width: 400px;
+    height: 190px;
+    border-radius: 8px;
+}
+
+.trip-field {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.hiking-field {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.mountain-field {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.book-btn {
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    background: #ff4027;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.book-btn:hover {
+    background: rgb(71, 66, 66);
+}
+
+.set-images {
+    width: 100%;
+    height: 200px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.exp-images {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 313px;
+    height: 195px;
+}
+
+.e1 {
+    background-image: url('https://www.pandotrip.com/wp-content/uploads/2018/05/Drone-view-of-Skogafoss-waterfall.jpg');
+
+}
+
+.e2 {
+    background-image: url('https://www.telegraph.co.uk/content/dam/Travel/2016/November/greek-zante-AP.jpg');
+}
+
+.e3 {
+    background-image: url('https://www.roadaffair.com/wp-content/uploads/2021/04/fjadrargljufur-canyon-iceland-shutterstock_1570383739-1024x683.jpg');
+}
+
+.e4 {
+    background-image: url('https://www.planetware.com/wpimages/2020/02/argentina-in-pictures-beautiful-places-to-photograph-iguaza-falls.jpg');
+
+
+}
+
+
+@media all and (max-width: 479px) {
+    .experience-page {
+        width: 98%;
+        height: 1850px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .nature-field {
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .trip-field {
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .hiking-field {
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .mountain-field {
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 5px;
+        padding: 5px;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    .experience-page {
+        width: 98%;
+        height: 1900px;
+    }
+    .nature-field {
+        width: 100%;
+        height: 500px;
+
+    }
+
+    .trip-field {
+        width: 100%;
+        height: 500px;
+
+    }
+
+    .hiking-field {
+        width: 100%;
+        height: 500px;
+
+    }
+    
+    .mountain-field {
+        width: 100%;
+        height: 500px;
+
+    }
+}

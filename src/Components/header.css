@@ -1,0 +1,129 @@
+/* google fonts for logo*/
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+
+* {
+    margin: 0;
+}
+.header-main {
+    background-color: #269ad8;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #ffc600;
+}
+
+.header-child {
+    width: 95%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 250px;
+    height: 55px;    
+}
+
+.logo .logo-a {
+    font-size: 25px;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 600;
+}
+
+.logo .logo-b {
+    font-size: 32px;
+    color: #ffc600;
+    font-family: 'Fugaz One', cursive;
+}
+.header-ul  {
+    list-style: none;
+    color: #fff;
+    display: flex;
+}
+
+.header-ul li {
+    cursor: pointer;
+    padding: 1.6rem;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.header-ul li:hover {
+    color: #ffc600;
+}
+
+.li-header {
+    text-decoration: none;
+    color: #fff;
+}
+
+.li-header:hover {
+    text-decoration: none;
+    color: rgb(82, 23, 23);
+}
+.li-header.active {
+    
+    color: #fff;
+}
+
+
+
+
+@media all and (max-width: 479px) {
+    .header-main {
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-child {
+        width: 70%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo {
+        width: 150px;
+        height: 25px;    
+    }
+
+    .header-ul  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .header-ul li {
+        cursor: pointer;
+        padding: 0.8rem;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 20px;
+        letter-spacing: 2px;
+        font-family: 'Bubblegum Sans', cursive;
+    }
+
+    .logo {
+        width: 110px;
+        height: 25px;    
+    }
+}

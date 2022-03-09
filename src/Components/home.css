@@ -1,0 +1,163 @@
+/* section 2 image */
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap'); 
+/* h5 section */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+.home-main {
+    background-color: rgb(232, 232, 238);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: min-content;
+    background-color: #6CB4EE;
+}
+
+.home-image {
+    /* background-image: url('https://media.cntraveler.com/photos/5c82a32d2fd2ea2d63da348c/5:4/w_3330,h_2664,c_limit/KAUAI_GettyImages-176612798.jpg'); */
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* width: 100%; */
+    /* height: 80vh; */
+    /* display: flex; */
+}
+
+.smth {
+    height: 450px;
+}
+
+/* section 1 CSS */
+
+.section-1 {
+    display: grid;
+    width: 100%;
+    height: 12vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.section-1-1 {
+    height: 70%;
+    border: 1px solid rgb(81, 85, 81);
+    display: flex;    
+}
+
+
+
+.section-1-2 {
+    height: 70%;
+    border: 1px solid rgb(81, 85, 81);
+    display: flex;
+}
+
+.section-1-3 {
+    height: 70%;
+    border: 1px solid rgb(81, 85, 81);
+    display: flex;
+}
+
+/* section 2 CSS */
+
+.section-2 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+}
+
+.section-2 h5{
+    margin-top: 50px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: rgb(187, 100, 83);
+    text-align: center;
+    font-family: 'Passion One', cursive;
+}
+
+.home-img2 {
+    width: 99%;
+    height: 40vh;
+    align-self: center;
+}
+
+.btn-section-2{
+    position: absolute;
+    margin-left: 75%;
+    border: 2px solid rgb(32, 32, 32);
+    border-radius: 4%;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    padding: 15px;
+    color: rgb(63, 46, 46);
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Calistoga', cursive;
+    background-color: rgba(180, 180, 180, 0.8);
+}
+
+
+.btn-section-2:hover {
+    background-color: rgb(39, 39, 88);
+    color: rgb(223, 217, 217);
+}
+
+
+@media all and (max-width: 479px) {
+    
+    .section-2 h5{
+        margin-top: 50px;
+        font-size: 25px;
+        letter-spacing: 2px;
+        color: rgb(187, 100, 83);
+        text-align: center;
+        font-family: 'Passion One', cursive;
+    }
+    
+    .home-img2 {
+        width: 99%;
+        height: 20vh;
+        align-self: center;
+    }
+    
+    .btn-section-2{
+        position: absolute;
+        margin-bottom: 20%;
+        margin-left: 35%;
+        border: 2px solid rgb(32, 32, 32);
+        border-radius: 4%;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        padding: 15px;
+        color: rgb(63, 46, 46);
+        cursor: pointer;
+        transition: 0.5s;
+        font-family: 'Calistoga', cursive;
+        background-color: rgba(180, 180, 180, 0.8);
+    }
+}
+
+@media all and (max-width: 768px) {
+    .btn-section-2{
+        position: absolute;
+        margin-bottom: 20%;
+        margin-left: 34%;
+        border: 2px solid rgb(32, 32, 32);
+        border-radius: 4%;
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        padding: 20px;
+        color: rgb(63, 46, 46);
+        cursor: pointer;
+        transition: 0.5s;
+        font-family: 'Calistoga', cursive;
+        background-color: rgba(180, 180, 180, 0.8);
+    }
+}

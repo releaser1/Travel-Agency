@@ -1,0 +1,124 @@
+
+/* text font*/
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+
+.error-page {
+    /* opacity: 0.9; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.error-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 40%;
+    height: 50vh;
+    border: 4px solid rgb(59, 53, 53);
+    padding: 2%;
+}
+
+
+
+.error-content h1 {
+    align-self: center;
+    font-size: 120px;
+    font-weight: 700 bold;
+    letter-spacing: 20px;
+    color: white;
+}
+
+.error-content h3 {
+    align-self: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+}
+
+/* Button Back Home style*/
+
+.button--hyperion {
+	font-family: input-mono-narrow, monospace;
+	font-weight: 500;
+	padding: .5rem .5rem;
+	border: 1px solid #000;
+	overflow: hidden;
+	color: #fff;
+    text-decoration: none;  
+    border-radius: 5px;
+}
+
+.button--hyperion span {
+	display: block;
+	position: relative;
+    font-size: 20px;
+}
+
+.button--hyperion > span {
+	overflow: hidden;
+}
+
+.button--hyperion > span > span {
+	overflow: hidden;
+	mix-blend-mode: difference;
+}
+
+.button--hyperion:hover > span > span {
+	animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
+}
+
+@keyframes MoveUpInitial {
+	to {
+		transform: translate3d(0,-105%,0);
+	}
+}
+
+@keyframes MoveUpEnd {
+	from {
+		transform: translate3d(0,100%,0);
+	}
+	to {
+		transform: translate3d(0,0,0);
+	}
+}
+
+.button--hyperion::before {
+	content: '';
+	background: #000;
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+	transform-origin: 100% 50%;
+}
+
+.button--hyperion:hover::before {
+	transform: scale3d(0,1,1);
+	transform-origin: 0% 50%;
+}
+
+
+.button {
+	pointer-events: auto;
+	cursor: pointer;
+	background: #e7e7e7;
+	border: none;
+	padding: 1.2rem 3rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+}
+
+.button::before,
+.button::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
